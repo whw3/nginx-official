@@ -1,0 +1,8 @@
+--- docker-nginx/mainline/alpine/Dockerfile	2017-07-10 02:21:36.609300110 -0500
++++ docker-nginx/mainline/alpine/Dockerfile.rpi	2017-07-10 02:25:52.228104269 -0500
+@@ -1,4 +1,4 @@
+-FROM alpine:3.5
++FROM whw3/alpine
+ 
+ MAINTAINER NGINX Docker Maintainers "docker-maint@nginx.com"
+ 
